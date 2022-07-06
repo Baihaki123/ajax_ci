@@ -26,16 +26,6 @@
                     </tr>
                 </thead>
                 <tbody id="tbl_data">
-                    <!-- <?php
-                            $no = 1;
-                            foreach ($data as $d) { ?>
-                        <tr>
-                            <td><?= $no++ ?></td>
-                            <td><?= $d->name ?></td>
-                            <td><?= $d->age ?></td>
-                            <td><?= $d->created_at ?></td>
-                        </tr>
-                    <?php  } ?> -->
                 </tbody>
             </table>
         </div>
@@ -78,10 +68,6 @@
             });
         }
     });
-
-    // document.addEventListener('DOMContentLoaded', function() {
-    //     tampil();
-    // });
 </script>
 
 </html>
